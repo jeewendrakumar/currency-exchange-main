@@ -110,15 +110,15 @@ const CurrencyConverter = () => {
   const getDates = (selectedDuration) => {
 
     const currentDate = new Date();
-    const date = currentDate.getDate();
-    const month = currentDate.getMonth() + 1;
+    const date = (currentDate.getDate()) < 10 ? '0' + (currentDate.getDate()) : (currentDate.getDate());
+    const month = (currentDate.getMonth() + 1) < 10 ? '0' + (currentDate.getMonth() + 1) : (currentDate.getMonth() + 1);
     const year = currentDate.getFullYear();
 
     const daysAgo = new Date(currentDate.getTime());
 
     daysAgo.setDate(currentDate.getDate() - (selectedDuration - 1));
-    const dateAgo = daysAgo.getDate();
-    const monthAgo = daysAgo.getMonth() + 1;
+    const dateAgo = (daysAgo.getDate()) < 10 ? '0' + (daysAgo.getDate()) : (daysAgo.getDate());
+    const monthAgo = (daysAgo.getMonth() + 1) < 10 ? '0' + (daysAgo.getMonth() + 1) : (daysAgo.getMonth() + 1);
     const yearAgo = daysAgo.getFullYear();
 
     return {

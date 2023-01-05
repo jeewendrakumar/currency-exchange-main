@@ -1,7 +1,7 @@
 {
   "name": "currency-exchange",
   "version": "0.1.0",
-  "homepage": "https://jeewendrakumar.github.io/currency-exchange",
+  "homepage": "https://jeewendrakumar.github.io/currency-exchange-main",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
