@@ -2,6 +2,7 @@
   "name": "currency-exchange-main",
   "version": "0.1.0",
   "homepage": "https://jeewendrakumar.github.io/currency-exchange-main",
+  "main": "/src/index.js",
   "private": true,
   "dependencies": {
     "@babel/eslint-parser": "^7.19.1",
