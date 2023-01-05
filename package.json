@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "homepage": "https://jeewendrakumar.github.io/currency-exchange-main",
   "private": true,
-  "main": "index.js",
   "dependencies": {
     "@babel/eslint-parser": "^7.19.1",
     "@emotion/react": "^11.10.5",
