@@ -10,14 +10,13 @@ export const getCurrency = async () => {
 export const convertCurrency = async (payload) => {
   try {
     const response = await fetch(
-      `${
-        BASE_URL +
-        "convert?from=" +
-        payload.from +
-        "&to=" +
-        payload.to +
-        "&amount=" +
-        payload.amount
+      `${BASE_URL +
+      "convert?from=" +
+      payload.from +
+      "&to=" +
+      payload.to +
+      "&amount=" +
+      payload.amount
       }`
     );
     return response.json();
@@ -28,12 +27,11 @@ export const convertCurrency = async (payload) => {
 export const getExchangeHistory = async (payload) => {
   try {
     const response = await fetch(
-      `${
-        BASE_URL +
-        "timeseries?start_date=" +
-        payload.start_date +
-        "&end_date=" +
-        payload.end_date
+      `${BASE_URL +
+      "timeseries?start_date=" +
+      payload.start_date +
+      "&end_date=" +
+      payload.end_date
       }`
     );
     return response.json();
