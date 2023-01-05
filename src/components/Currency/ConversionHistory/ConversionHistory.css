@@ -1,0 +1,28 @@
+.actions {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actions a:hover {
+    display: flex;
+}
+
+.actions a {
+    display: flex;
+    align-items: center;
+}
+
+.actions a>span {
+    margin-right: 5px;
+}
+
+.actions a:first-child,
+span.view {
+    color: #009688;
+}
+
+.actions a,
+span.delete {
+    color: #c70d38;
+}

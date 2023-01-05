@@ -1,0 +1,23 @@
+.form-group {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: flex-end;
+    align-items: center;
+}
+
+.radio {
+    display: flex !important;
+    flex-direction: row !important;
+    width: auto !important;
+}
+
+.view-conversion {
+    display: flex;
+    margin-top: 20px;
+}
+
+.exchange-rate-datewise,
+.statistics {
+    width: 100%;
+    margin: 10px;
+}

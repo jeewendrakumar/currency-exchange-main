@@ -1,0 +1,14 @@
+a {
+  color: #404040;
+  text-decoration: none;
+}
+
+a.primary {
+  color: #009688;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1260px;
+  box-sizing: border-box;
+}

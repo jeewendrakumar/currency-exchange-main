@@ -1,0 +1,48 @@
+header {
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__section {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.header__logo {
+    font-size: 1.2rem;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+.header__logo .t-0 {
+    color: #009688;
+    font-size: 2rem;
+}
+
+.header__logo .t-2 {
+    font-weight: bold;
+}
+
+.header__button {
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 14px;
+    text-align: center;
+}
+
+.header-item-selected {
+    font-weight: bold;
+    border-bottom: 3px solid #009688;
+}
